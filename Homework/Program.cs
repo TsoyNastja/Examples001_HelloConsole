@@ -61,17 +61,14 @@ while (curr <= num)
 */
 
 // Задача 6: Напишите программу, которая на вход принимает число и выдаёт, является ли число чётным (делится ли оно на два без остатка).
-
+/*
 int num ;
-int curr ;
 
 Console.Write("Введите число num: ");
 num = Convert.ToInt32(Console.ReadLine());
-int curr = num/2;
 
-// if(curr <= num)
-//if(num % 2f == 0)
-if(curr<=num)
+// Проверяем отсутствие остатка от деления
+if(num % 2 == 0)
 {
     Console.Write(num + " Четное");
 }
@@ -79,3 +76,5 @@ else
 {
     Console.Write(num + " Не Четное");
 }
+
+*/
